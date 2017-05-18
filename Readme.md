@@ -1,0 +1,1 @@
+#LoftSchool Test task by Daniil Vereschagin 
