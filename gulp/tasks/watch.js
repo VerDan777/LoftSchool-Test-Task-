@@ -28,7 +28,7 @@ gulp.task('pugChanged',['pugRender'],function(){
 gulp.task('JsChanged',['JsRender'],function(){
     BrowserSync.reload();
 })
-gulp.task('CssInject',['styles'],function(){
+gulp.task('cssInject',['styles'],function(){
     gulp.src('./dist/styles.css')
     .pipe(BrowserSync.stream());
 })
