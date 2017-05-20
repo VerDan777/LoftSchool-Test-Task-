@@ -1,0 +1,15 @@
+.site-footer {
+    height: 72px; 
+    background-color:#212121;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+
+    &__text {
+        color:#898989;
+        margin: 10px 220px;
+        font-family: $mainFont;
+        font-size: 0.9rem;
+    }
+}

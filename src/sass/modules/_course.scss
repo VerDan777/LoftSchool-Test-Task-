@@ -1,5 +1,21 @@
 .course {
-  
+    margin-top:91px;
+  &__title {
+
+        font-size: 2.5rem;
+        font-family: $mainFont;
+        font-weight: bold;
+        text-align: center;
+        padding-top:50px;
+        padding-bottom:20px;
+  }
+  &__subtitle {
+        color:$colorsubabout;
+        text-align: center;
+        font-size: 1.5rem;
+        font-family: $mainFont;
+        font-weight:100;
+  }
   
 
 }

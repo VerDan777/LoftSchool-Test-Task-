@@ -395,14 +395,17 @@ template {
 
 html {
   width: 100%;
-  height: 100%;
-  box-sizing: border-box; }
+  min-height: 100%;
+  box-sizing: border-box;
+  position: relative; }
 
 body {
   list-style-type: none;
   font-size: 16px;
   overflow-x: hidden;
-  outline: none; }
+  outline: none;
+  width: 100%;
+  height: 100%; }
 
 h1 {
   margin: 0;
@@ -499,3 +502,31 @@ h1 {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4; }
+
+.course {
+  margin-top: 91px; }
+  .course__title {
+    font-size: 2.5rem;
+    font-family: "FiraSans", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px; }
+  .course__subtitle {
+    color: #727272;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "FiraSans", sans-serif;
+    font-weight: 100; }
+
+.site-footer {
+  height: 72px;
+  background-color: #212121;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+  .site-footer__text {
+    color: #898989;
+    margin: 10px 220px;
+    font-family: "FiraSans", sans-serif;
+    font-size: 0.9rem; }
