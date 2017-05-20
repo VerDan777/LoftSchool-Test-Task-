@@ -468,6 +468,11 @@ h1 {
   position: relative;
   padding-left: 15px;
   padding-right: 15px; }
+  .wrapper--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap; }
 
 .about__title {
   font-size: 2.5rem;
@@ -504,7 +509,8 @@ h1 {
   line-height: 1.4; }
 
 .course {
-  margin-top: 91px; }
+  margin-top: 91px;
+  margin-bottom: 62px; }
   .course__title {
     font-size: 2.5rem;
     font-family: "FiraSans", sans-serif;
@@ -518,6 +524,23 @@ h1 {
     font-size: 1.5rem;
     font-family: "FiraSans", sans-serif;
     font-weight: 100; }
+  .course__gallery {
+    margin-top: 52px; }
+  .course__gallery-block {
+    box-shadow: 0px 1px 10px black;
+    width: 300px;
+    min-height: 434px;
+    margin-bottom: 70px; }
+  .course__complete {
+    display: none; }
+  .course__block-title {
+    color: #89917f;
+    font-family: "FiraSans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px 20px; }
+    .course__block-title:hover {
+      color: #a3cf6f; }
 
 .site-footer {
   height: 72px;
