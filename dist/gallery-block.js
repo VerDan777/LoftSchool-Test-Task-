@@ -1,9 +1,13 @@
-// import $ from "jquery";
+// var color = document.getElementsByClassName('course__gallery-block');
 
- $('.course__input').change(function(){
-    // setTimeout(color,1000);
-     console.log('yes');
-    $('.course__gallery-block').css('background-color','#ecf4e2');
-    $('.course__gallery-block').remove();
+var Color = function(){
+    var colorSet= document.getElementsByClassName('course__gallery-block').style.color="blue";
+    return colorSet;
+}
    
-})
+
+
+function Changed () {
+  return Color;
+}
+// document.getElementsByClassName('course__input').onclick=changed;
